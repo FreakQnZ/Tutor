@@ -1,0 +1,6 @@
+lg_libs
+.env
+.ropeproject
+.DS_Store
+**/.DS_Store
+lecture_sample.mp4
