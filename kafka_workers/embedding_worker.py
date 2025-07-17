@@ -26,7 +26,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Global variables for models and buffer
-print("Loading CLIP model...")
+print("CLOG Loading CLIP model...")
 clip_model = SentenceTransformer('clip-ViT-B-32')
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 video_buffer = {}  # Buffer to store partial data for each video_id
@@ -60,6 +60,7 @@ def create_image_embeddings(image_paths: List[str]) -> tuple:
             logger.info(f"Created embedding for image: {img_path}")
         except Exception as e:
             logger.error(f"Error processing image {img_path}: {str(e)}")
+            print(f"CLOG Error processing image {img_path}: {str(e)}")
             continue
 
     if embeddings:
@@ -169,7 +170,7 @@ def process_pdf(video_id: str, extracted_text: str, image_paths: List[str]) -> N
         # print()
         # print(video_buffer[video_id]['images_metadata'])
 
-    logger.info(f"PDF processing completed for video_id: {video_id}")
+    print(f"CLOG PDF processing completed for video_id: {video_id}")
 
 def check_and_send_complete_payload(video_id: str, producer: KafkaProducer) -> None:
     """Check if both transcription and PDF are processed, then send to embeddings_ready"""
@@ -205,7 +206,7 @@ def check_and_send_complete_payload(video_id: str, producer: KafkaProducer) -> N
         # Remove from buffer
         del video_buffer[video_id]
 
-        logger.info(f"✅ Complete payload sent to {EMBEDDINGS_READY_TOPIC} for video_id: {video_id}")
+        print(f"CLOG ✅ Complete payload sent to {EMBEDDINGS_READY_TOPIC} for video_id: {video_id}")
 
 def start_consumer():
     """Main consumer function"""
@@ -215,7 +216,7 @@ def start_consumer():
         bootstrap_servers=KAFKA_BROKER,
         value_deserializer=lambda m: json.loads(m.decode("utf-8")),
         group_id="embedding_worker_group",
-        auto_offset_reset="latest",
+        auto_offset_reset="earliest",
         enable_auto_commit=True,
     )
 
@@ -224,7 +225,7 @@ def start_consumer():
         value_serializer=lambda v: json.dumps(v).encode("utf-8")
     )
 
-    print(f"Listening to topics: {TRANSCRIPTION_READY_TOPIC}, {PDF_READY_TOPIC}")
+    print(f"CLOG Listening to topics: {TRANSCRIPTION_READY_TOPIC}, {PDF_READY_TOPIC}")
 
     for message in consumer:
         try:
@@ -236,7 +237,7 @@ def start_consumer():
                 logger.error("No video_id found in message")
                 continue
 
-            print(f"Processing message from topic: {topic} for video_id: {video_id}")
+            print(f"CLOG Processing message from topic: {topic} for video_id: {video_id}")
 
             if topic == TRANSCRIPTION_READY_TOPIC:
                 transcription = data.get('transcript')  # Note: your transcriber uses 'transcript'

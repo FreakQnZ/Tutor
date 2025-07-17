@@ -65,7 +65,7 @@ def create_pdf(summary, video_id):
                 story.append(Paragraph(f"[Image not found: {img_path}]", styles['Italic']))
 
     doc.build(story)
-    print(f"✅ PDF created: {output_path}")
+    print(f"CLOG ✅ PDF created: {output_path}")
 
 def add_images(doc, metadata, similarity_threshold=0.3):
     text_chunks = splitter.split_text(doc)
@@ -147,7 +147,7 @@ def llm_response(text):
             with open('output_prompt.txt', 'a') as f:
                 f.write(prompt)
 
-            print(f"🔹 Sending batch {i + 1}/{len(chunks)} (Estimated tokens: {estimate_tokens(prompt)})")
+            print(f"CLOG 🔹 Sending batch {i + 1}/{len(chunks)} (Estimated tokens: {estimate_tokens(prompt)})")
             response = llm.invoke(prompt)
             responses.append(response.content)
             # with open("llm.txt", "a") as file:
@@ -213,11 +213,11 @@ def start_consumer():
         bootstrap_servers=KAFKA_BROKER,
         value_deserializer=lambda m: json.loads(m.decode("utf-8")),
         group_id="final_notes_worker_group",
-        auto_offset_reset="latest",
+        auto_offset_reset="earliest",
         enable_auto_commit=True,
     )
 
-    print(f"Listening to topic: {EMBEDDINGS_READY_TOPIC}")
+    print(f"CLOG Listening to topic: {EMBEDDINGS_READY_TOPIC}")
 
     # payload = {
     #     'video_id': '1234',
@@ -239,7 +239,7 @@ def start_consumer():
                 logger.error("No video_id found in message")
                 continue
 
-            print(f"Processing final notes for video_id: {video_id}")
+            print(f"CLOG Processing final notes for video_id: {video_id}")
             process_embeddings_payload(payload)
 
         except Exception as e:

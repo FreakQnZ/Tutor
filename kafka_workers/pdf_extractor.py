@@ -1,5 +1,6 @@
 import os
 import json
+import sys
 import uuid
 import fitz  # PyMuPDF
 # from PIL import Image
@@ -11,6 +12,11 @@ load_dotenv()
 KAFKA_BROKER = os.getenv("KAFKA_BROKER", "localhost:9092")
 PDF_READY_TOPIC = "pdf_ready"
 IMAGE_OUT_DIR = "data/images"
+
+if len(sys.argv) > 1:
+    video_id = sys.argv[1]
+else:
+    video_id = "1234"
 
 os.makedirs(IMAGE_OUT_DIR, exist_ok=True)
 
@@ -60,12 +66,12 @@ def publish_pdf_data(pdf_path):
         "pdf_path": pdf_path,
         "extracted_text": text,
         "images": images,
-        "video_id": "1234"
+        "video_id": video_id
     }
 
     producer.send(PDF_READY_TOPIC, payload)
     producer.flush()
-    print(f"✅ Published PDF data for {pdf_path} to {PDF_READY_TOPIC}")
+    print(f"CLOG ✅ Published PDF data for {pdf_path} to {PDF_READY_TOPIC}")
 
 
 if __name__ == "__main__":

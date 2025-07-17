@@ -1739,3 +1739,627 @@ Department of Computer Science Engineering
   Match 1: statistics are fed to critic. These statistics are fed to critic. Now the statistics information has been brought in from a different path, not an LLM. So, agentic workflow. Let me iterate. Agentic workflow does not necessarily mean that all pieces are LLM. One leaf bound you have to take is in agentic workflow you have compounded LLM. Another leaf bound that you have to take is the agentic workflow does not necessarily mean that every piece is an LLM. The pieces can be different. They can flow from different paths. But all of them the objective is to produce better response. The only one goal is to produce better response to a query. That is it. So, that is another way. This is clear. This is what we mean by agentic workflow. We are using several modules to generate a better response to the given query. This is what we mean by agentic workflow. So, now if you look at the stack AI stack as of today, this is where you have the semiconductor, semiconductor layer like Nvidia and all of
   Match 2: Now, you have third LLM, there are critics output and a draft version both you give. Critics output and a draft version you give and the third LLM will generate draft too. Updating whatever is a critic. We do that for GPD as well, right? This is not what I am liking, you modify this and all that. So, in our case, human itself is a critic. So, this instead of this LLM, there can be an element of human and human will act as a critic and give a different prompt, but that itself can be an LLM. So, then you produce a draft too. Like this, how many iterations you want to have? That is your decision. So, if you are okay with draft to find, otherwise again you will have to loop back. Again, you have to feed this draft too to critic. Again, you have to take the critic. Again, you have to produce it to a fine tuned LLM. So, this is the finer version, finer version LLM. So, in this view, in this view of agentic workflow, every piece that I spoke about is an LLM. Every piece that I am speaking
         
+            You are given educational content structured as follows:
+
+            - Query: A concise, topic-specific sentence or paragraph that captures the core idea or concept
+            - Match 1, Match 2, Match 3: Transcribed excerpts from a teacher’s lecture that expand on or relate to the Query.
+
+            Your task is to generate clear, concise, and comprehensive course notes. Focus on the Query, but enhance it with meaningful insights, context, or examples from the Matches.
+
+            Instructions:
+            - Do not include any introductions, labels, or extra text — only the final generated course notes.
+            - Be accurate, clear, and focused. Avoid redundancy or off-topic content.
+            - Try to generate a paragraph per query and its matches
+
+            Here is the input:
+
+            Query 0: Dr. Shylaja S S 
+Director of Cloud Computing & Big Data (CCBD), Centre 
+for Data Sciences & Applied Machine Learning (CDSAML) 
+Department of Computer Science and Engineering 
+shylaja.sharath@pes.edu
+Ack: Ujjwal MK, 
+Teaching Assistant
+UE22AM343BB5 
+Agentic Workflow
+UE22AM343BB5: Large Language Models and Their Applications 
+The Foundational AI Stack: A Layered Perspective 
+Artificial Intelligence can be conceptualized as a stack of 
+interconnected layers. At the base, Semiconductors provide the 
+necessary computational power for AI models. Above this lies the 
+Cloud Infrastructure, offering scalable resources for data storage 
+and processing, exemplified by platforms like Snowflake. The 
+crucial upper layer comprises Applications, where AI algorithms 
+are translated into practical solutions addressing real-world 
+problems.    
+While technological advancements in the lower layers are vital, the 
+true transformative potential of AI is realized through the
+  Match 0: being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very effective. So there is still lot of scope which means that we are all very happy. Everybody of every one of you will have very good jobs. So that is where he also stops. This is from Andrew's words not mine. He says that there is plenty of opportunity. AI is like electricity as quoted by Andrew NG. It is like electricity can be used for fans, electricity for lights, electricity for anything else, bore well and all of that. Like that AI can be used as electricity in many applications and the domain is really nice and that is for all of you to flourish. So with that I will stop. So with this I have only one more topic that is that LLM security and ethics which I will take it up otherwise I am done with fourth unit. Builder builder. It is not orchestration agent or will have decision making.
+  Match 1: we did it for in one of the projects we did that. So what we did was GPT is silent LLM I asked a question how many of course let us say we are only having code. This is a question. So what we did was we identified an agent orchestration agent. We understood that the question is related to cricket. So we gave it to cricket agent. Cricket agent. This base LLM understood the language. Then we developed an orchestration agent which would orchestrate between cricket, football and other sports. So this cricket agent will fetch data from its own cricket data where produces the answer and then use it back to another LLM. And then it produces the answer. This is what we developed. Recently they got approved in NLP journal also. This kind of work. So this is an agent cricket agent, football agent. We did it for Olympics, Paris Olympics. So all the indoor games, outdoor games, all of this. Each one is one agent. It will answer pin pointed questions on one particular sports. And to which agent we
+  Match 2: AI stack is more important than just building one model alone. In the classroom we always teach subjects in silos where in LLM course we just understand only LLM. Sometimes we do understand about hardware resources problem, but they are discussed in separate. One in parallel algorithms you do not even study about various GPU processing units that are available. How the clusters are formed. What is the drawback that is there in the current cluster? Where are we studying that? How is it impacting your LLM? Those aspects we have not studied here. Purely from the software stack point of view we have studied LLM. That is where we still have the gaps and according to top professional Stanford, Andrew and all of these people. There is still token problem in agent work flow. Tokens are not being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very
+Query 1: problems.    
+While technological advancements in the lower layers are vital, the 
+true transformative potential of AI is realized through the 
+development and deployment of innovative applications. This 
+layered perspective helps us understand the dependencies and 
+opportunities within the broader AI ecosystem. 
+Credits: Generative-AI-Tech-Stack.jpg
+UE22AM343BB5: Large Language Models and Their Applications 
+The Impact of Generative AI: Accelerating Innovation 
+Generative AI represents a significant advancement in 
+the field, enabling the rapid development and iteration 
+of machine learning models. This acceleration allows 
+research teams and developers to create functional 
+prototypes in significantly shorter timeframes, moving 
+from months to potentially just days or weeks.    
+This capability fosters a culture of rapid 
+experimentation, where multiple hypotheses can be 
+tested and refined efficiently. While the speed of 
+prototyping has increased dramatically, it's crucial to
+  Match 0: AI stack is more important than just building one model alone. In the classroom we always teach subjects in silos where in LLM course we just understand only LLM. Sometimes we do understand about hardware resources problem, but they are discussed in separate. One in parallel algorithms you do not even study about various GPU processing units that are available. How the clusters are formed. What is the drawback that is there in the current cluster? Where are we studying that? How is it impacting your LLM? Those aspects we have not studied here. Purely from the software stack point of view we have studied LLM. That is where we still have the gaps and according to top professional Stanford, Andrew and all of these people. There is still token problem in agent work flow. Tokens are not being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very
+  Match 1: vision model text has to be generated. So vision features will have to be understood by the vision model. Then it has to collaborate with text model. And then it is kind of similar to this only thing is there are collaborative agents now. It is not in sequence. It is not about that decision making these agents collaborate. For example, there is an autonomous vehicle that is being using agentic workflow. What are the different agents that may be required for autonomous driving? Can you tell me? For autonomous driving what different agents may be required? So, there are two main navigation, object detection, so vision system agent you need, then communication agent to the driver, then safety, obstacles. So, like this there are many agents. Each agent will have its own responsibility and they need to come in, trigger at the right time so that the driver is given correct information. So, there are many agents. So, they are all collaborating. Sometimes you may want to take the vision and
+        
+            You are given educational content structured as follows:
+
+            - Query: A concise, topic-specific sentence or paragraph that captures the core idea or concept
+            - Match 1, Match 2, Match 3: Transcribed excerpts from a teacher’s lecture that expand on or relate to the Query.
+
+            Your task is to generate clear, concise, and comprehensive course notes. Focus on the Query, but enhance it with meaningful insights, context, or examples from the Matches.
+
+            Instructions:
+            - Do not include any introductions, labels, or extra text — only the final generated course notes.
+            - Be accurate, clear, and focused. Avoid redundancy or off-topic content.
+            - Try to generate a paragraph per query and its matches
+
+            Here is the input:
+
+            Match 2: to decide what is appropriate for your application. As I said these are possible, but how you want to design your entire application is dependent on you. Is that clear? So, this is about application development using some of these patterns. So, you have to decide whether already a pre-existing vision model is there. There is no need to build some scratch. I will use that speech model is there. I will use it. I will build an autonomous vehicle system. In today's system developing ML model sees quite fast unlike in the earlier case because of the LLM sentiment analysis in no time it happens. But how do you finally deploy this product is the challenging thing. How do you make sure that these patterns will coordinate and then produce a meaningful output is a challenging thing. The whole stack AI stack is more important than just building one model alone. In the classroom we always teach subjects in silos where in LLM course we just understand only LLM. Sometimes we do understand about
+Query 2: experimentation, where multiple hypotheses can be 
+tested and refined efficiently. While the speed of 
+prototyping has increased dramatically, it's crucial to 
+emphasize the importance of rigorous evaluation and 
+responsible development practices to ensure the 
+reliability and ethical implications of these rapidly 
+created AI solutions are thoroughly considered
+Credits: Generative-AI-Tech-Stack.jpg
+UE22AM343BB5: Large Language Models and Their Applications 
+Introducing Agentic Workflows: A Paradigm Shift in AI Interaction 
+Traditional interactions with AI often involve a single prompt leading to a direct response. 
+Agentic Workflows represent a more sophisticated approach where AI systems, known 
+as agents, engage in iterative and deliberative processes to accomplish complex tasks. 
+This involves multiple steps such as research, planning, execution, and refinement, 
+mirroring human problem-solving methodologies.
+  Match 0: being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very effective. So there is still lot of scope which means that we are all very happy. Everybody of every one of you will have very good jobs. So that is where he also stops. This is from Andrew's words not mine. He says that there is plenty of opportunity. AI is like electricity as quoted by Andrew NG. It is like electricity can be used for fans, electricity for lights, electricity for anything else, bore well and all of that. Like that AI can be used as electricity in many applications and the domain is really nice and that is for all of you to flourish. So with that I will stop. So with this I have only one more topic that is that LLM security and ethics which I will take it up otherwise I am done with fourth unit. Builder builder. It is not orchestration agent or will have decision making.
+  Match 1: vision model text has to be generated. So vision features will have to be understood by the vision model. Then it has to collaborate with text model. And then it is kind of similar to this only thing is there are collaborative agents now. It is not in sequence. It is not about that decision making these agents collaborate. For example, there is an autonomous vehicle that is being using agentic workflow. What are the different agents that may be required for autonomous driving? Can you tell me? For autonomous driving what different agents may be required? So, there are two main navigation, object detection, so vision system agent you need, then communication agent to the driver, then safety, obstacles. So, like this there are many agents. Each agent will have its own responsibility and they need to come in, trigger at the right time so that the driver is given correct information. So, there are many agents. So, they are all collaborating. Sometimes you may want to take the vision and
+  Match 2: making is we saw something like that. Based on that text we generate in the post. That is only a difficult one. I was trying to start for the model to be that no model is available from text to use. So they are like you know question detect the text and react to both image and then you have some like optical it is like SSR and that. Only from text. Yes. It is not possible is it. Can you give me an example? No. As district there were three contexts. One is Saku and one is Bharatma's and one is Akar. Bharatma's and context is very good at that model. So based on that Bharatma's and context we should generate the project. You are a project or a robust or robust non-dense? Here we are. Here they are. So we are the post-signatory to generate the name. No you tell me where the issue is. The issue is from text to post-signatory. Post-signatory. So one approach what I was to use. Number you find using lot of sequences like that now. Let us create at least 1000 data sets. Create 1000 for this
+Query 3: This involves multiple steps such as research, planning, execution, and refinement, 
+mirroring human problem-solving methodologies.    
+This shift towards agentic workflows often yields significantly improved outcomes, 
+particularly for tasks requiring nuanced reasoning and multiple stages of processing. The 
+concept of an "agentic orchestration layer" is also emerging to facilitate the development 
+and management of these complex AI agent-based applications.
+UE22AM343BB5: Large Language Models and Their Applications 
+Introducing Agentic Workflows: A Paradigm Shift in AI Interaction 
+Credits: 66bf53e88fd1e0c7e9f2919b_66903ec919d3481cdfc63a9c_agents-breakdown%20(8).png
+UE22AM343BB5: Large Language Models and Their Applications 
+Design Pattern: Reflection - The Power of Self-Critique 
+The Reflection design pattern equips AI agents with the ability 
+to evaluate and critique their own outputs. Similar to peer review 
+in academic settings or debugging in software development, this
+  Match 0: to be repeated. It is like a plan. How many times and what all you have to feed, what changes you have to bring in. All of this usually is orchestrated and that agent is called as an orchestration agent. Now, in the way I said the agentic workflow versus the non-agentic workflow, it is like at one go. You just ask me an essay and you give me the essay. That is it. But in the agentic workflow, you are not going to stop at that. You are going to refine your responses. What does that mean? Your agentic workflow is giving you a better response than a non-agentic approach. That is the first and foremost objective goal with which agentic workflows work. In order to improvise the response, you use agentic workflows. This is the objective and how you do it? There can be different methods. But this is one of the ways. Is this clear? Is the agentic workflow clear here? Now you can ask the LLM to create a draft version. Now you can ask another piece of code for a data request. Data request
+  Match 1: statistics are fed to critic. These statistics are fed to critic. Now the statistics information has been brought in from a different path, not an LLM. So, agentic workflow. Let me iterate. Agentic workflow does not necessarily mean that all pieces are LLM. One leaf bound you have to take is in agentic workflow you have compounded LLM. Another leaf bound that you have to take is the agentic workflow does not necessarily mean that every piece is an LLM. The pieces can be different. They can flow from different paths. But all of them the objective is to produce better response. The only one goal is to produce better response to a query. That is it. So, that is another way. This is clear. This is what we mean by agentic workflow. We are using several modules to generate a better response to the given query. This is what we mean by agentic workflow. So, now if you look at the stack AI stack as of today, this is where you have the semiconductor, semiconductor layer like Nvidia and all of
+        
+            You are given educational content structured as follows:
+
+            - Query: A concise, topic-specific sentence or paragraph that captures the core idea or concept
+            - Match 1, Match 2, Match 3: Transcribed excerpts from a teacher’s lecture that expand on or relate to the Query.
+
+            Your task is to generate clear, concise, and comprehensive course notes. Focus on the Query, but enhance it with meaningful insights, context, or examples from the Matches.
+
+            Instructions:
+            - Do not include any introductions, labels, or extra text — only the final generated course notes.
+            - Be accurate, clear, and focused. Avoid redundancy or off-topic content.
+            - Try to generate a paragraph per query and its matches
+
+            Here is the input:
+
+            Match 2: to see how the responses will have to be generated by using agents. And on top of that you have the applications. So, there is plenty of opportunity in terms of quickly building the AI product using this agentic approach because you have plenty of them available already. Software development is happening in this direction. So, please note that for us machine learning means that is the only piece. But in software development that is not the only thing. You need to also worry about where you will deploy, isn't it? On which hardware you are going to run it. So, we are speaking everything in silos. We never speak about which GPU system we need. We just build a ML model that is not sufficient, right? That one piece is not sufficient. You have to make sure that the training, data value store, the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So,
+Query 4: The Reflection design pattern equips AI agents with the ability 
+to evaluate and critique their own outputs. Similar to peer review 
+in academic settings or debugging in software development, this 
+process allows the AI to identify errors, inefficiencies, or areas 
+for improvement. 
+Through iterative cycles of self-assessment and revision, AI 
+agents employing reflection can achieve more accurate and 
+higher-quality results. This can involve a single agent reflecting 
+on its work or a multi-agent system where one agent generates 
+content and another provides constructive criticism.
+Credits: https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-2-
+reflection/
+UE22AM343BB5: Large Language Models and Their Applications 
+Design Pattern:Tool Use
+The Tool Use design pattern enables AI agents to extend 
+their functionality by leveraging external tools and APIs. 
+These tools can range from information retrieval systems like 
+web search engines to computational tools like code
+  Match 0: will give break okay. So you have reflection design pattern. Reflection design pattern is same as this whatever I explained compounded LLM that is called as reflection pattern. So you ask the LLM to generate code. You have to reflect on that code that is a meaning of reflection and that code when you run it it is generating error. So the critic is saying that there is an error in line number 10. So then the other LLM final LLM it can be different LLM they can be same LLM. So another LLM is say okay I have corrected the error in line 10 you now check it again. So this is called as reflection. Reflection pattern is nothing but compounded LLM. What is tool use? Tool use is the second part that I said okay. I have asked LLM to give me 5 by 2 example or sign 63. So when I say like that LLM alone cannot answer. So what it has to do it has to call an API API to Calilator agent. It has to call an API to web search or it has to generate a code for Calilator in sign 63 and the code has to be
+  Match 1: to see how the responses will have to be generated by using agents. And on top of that you have the applications. So, there is plenty of opportunity in terms of quickly building the AI product using this agentic approach because you have plenty of them available already. Software development is happening in this direction. So, please note that for us machine learning means that is the only piece. But in software development that is not the only thing. You need to also worry about where you will deploy, isn't it? On which hardware you are going to run it. So, we are speaking everything in silos. We never speak about which GPU system we need. We just build a ML model that is not sufficient, right? That one piece is not sufficient. You have to make sure that the training, data value store, the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So,
+  Match 2: vision model text has to be generated. So vision features will have to be understood by the vision model. Then it has to collaborate with text model. And then it is kind of similar to this only thing is there are collaborative agents now. It is not in sequence. It is not about that decision making these agents collaborate. For example, there is an autonomous vehicle that is being using agentic workflow. What are the different agents that may be required for autonomous driving? Can you tell me? For autonomous driving what different agents may be required? So, there are two main navigation, object detection, so vision system agent you need, then communication agent to the driver, then safety, obstacles. So, like this there are many agents. Each agent will have its own responsibility and they need to come in, trigger at the right time so that the driver is given correct information. So, there are many agents. So, they are all collaborating. Sometimes you may want to take the vision and
+Query 5: their functionality by leveraging external tools and APIs. 
+These tools can range from information retrieval systems like 
+web search engines to computational tools like code 
+interpreters, and even interfaces for interacting with real-
+world applications. 
+By integrating with these external resources, AI agents 
+become more versatile and capable of addressing a wider 
+range of complex tasks that require interaction with the 
+external environment or specialized functionalities. 
+Credits: https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-3-tool-use/
+UE22AM343BB5: Large Language Models and Their Applications 
+ Design Pattern Planning - Strategizing for Complex Objectives
+The Planning design pattern involves AI agents 
+breaking down complex requests or goals into a 
+sequence of smaller, more manageable sub-tasks. 
+This decomposition allows the agent to approach 
+intricate problems in a structured and organized 
+manner, similar to project management 
+methodologies.
+  Match 0: to see how the responses will have to be generated by using agents. And on top of that you have the applications. So, there is plenty of opportunity in terms of quickly building the AI product using this agentic approach because you have plenty of them available already. Software development is happening in this direction. So, please note that for us machine learning means that is the only piece. But in software development that is not the only thing. You need to also worry about where you will deploy, isn't it? On which hardware you are going to run it. So, we are speaking everything in silos. We never speak about which GPU system we need. We just build a ML model that is not sufficient, right? That one piece is not sufficient. You have to make sure that the training, data value store, the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So,
+        
+            You are given educational content structured as follows:
+
+            - Query: A concise, topic-specific sentence or paragraph that captures the core idea or concept
+            - Match 1, Match 2, Match 3: Transcribed excerpts from a teacher’s lecture that expand on or relate to the Query.
+
+            Your task is to generate clear, concise, and comprehensive course notes. Focus on the Query, but enhance it with meaningful insights, context, or examples from the Matches.
+
+            Instructions:
+            - Do not include any introductions, labels, or extra text — only the final generated course notes.
+            - Be accurate, clear, and focused. Avoid redundancy or off-topic content.
+            - Try to generate a paragraph per query and its matches
+
+            Here is the input:
+
+            Match 1: being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very effective. So there is still lot of scope which means that we are all very happy. Everybody of every one of you will have very good jobs. So that is where he also stops. This is from Andrew's words not mine. He says that there is plenty of opportunity. AI is like electricity as quoted by Andrew NG. It is like electricity can be used for fans, electricity for lights, electricity for anything else, bore well and all of that. Like that AI can be used as electricity in many applications and the domain is really nice and that is for all of you to flourish. So with that I will stop. So with this I have only one more topic that is that LLM security and ethics which I will take it up otherwise I am done with fourth unit. Builder builder. It is not orchestration agent or will have decision making.
+  Match 2: a call to agent. But here you are making that. But how are you feeding it to the LLM you are prompt? Correctly the question. We have just missing that and question like that. But running HTML file is like it is known. How you have to run it is known. So I think there is an API call that is made. It is a tool use pattern. That is not reflection. That is adjusting the loss. Because loss is fed back in all the cases. See in this case output is fed back. The output draft version and critics output are fed for reflection. In GAN it is not like that. And in the second layer identify some error and it works and it refers to another draft. It critics only. It does not prefer any draft. It critics saying that this line is incorrect. This line is wrong. This line there is no technical content like that. Only critic comments. So critic comments and that draft version is fed to another LLM. For it is a refined version. So that way the output is not like loss. These are responses are only fed as
+Query 6: This decomposition allows the agent to approach 
+intricate problems in a structured and organized 
+manner, similar to project management 
+methodologies.    
+By planning the necessary steps to achieve a 
+complex objective, AI agents can better manage the 
+inherent complexity and increase the likelihood of 
+successful task completion. This planning process 
+can be static, where the entire plan is defined 
+upfront, or dynamic, where the agent adjusts its plan 
+based on new information or unexpected events. 
+Credits: https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-4-planning/
+UE22AM343BB5: Large Language Models and Their Applications 
+Design Pattern: Multi-Agent Collaboration - Harnessing Collective Intelligence 
+Multi-Agent Collaboration is a design pattern that 
+leverages the combined capabilities of multiple AI agents 
+working together to achieve a common goal. In this 
+model, different agents are assigned specialized roles or
+  Match 0: to be repeated. It is like a plan. How many times and what all you have to feed, what changes you have to bring in. All of this usually is orchestrated and that agent is called as an orchestration agent. Now, in the way I said the agentic workflow versus the non-agentic workflow, it is like at one go. You just ask me an essay and you give me the essay. That is it. But in the agentic workflow, you are not going to stop at that. You are going to refine your responses. What does that mean? Your agentic workflow is giving you a better response than a non-agentic approach. That is the first and foremost objective goal with which agentic workflows work. In order to improvise the response, you use agentic workflows. This is the objective and how you do it? There can be different methods. But this is one of the ways. Is this clear? Is the agentic workflow clear here? Now you can ask the LLM to create a draft version. Now you can ask another piece of code for a data request. Data request
+  Match 1: to see how the responses will have to be generated by using agents. And on top of that you have the applications. So, there is plenty of opportunity in terms of quickly building the AI product using this agentic approach because you have plenty of them available already. Software development is happening in this direction. So, please note that for us machine learning means that is the only piece. But in software development that is not the only thing. You need to also worry about where you will deploy, isn't it? On which hardware you are going to run it. So, we are speaking everything in silos. We never speak about which GPU system we need. We just build a ML model that is not sufficient, right? That one piece is not sufficient. You have to make sure that the training, data value store, the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So,
+  Match 2: It is known as compounded LLM. Agentic workflow involves compounded LLM, but that is one of the ways, not the only method. So, in the compounded LLM, the same question when you ask the LLM, you want it to generate a marketing plan for a product or NSA. It generates a draft version. Then you are going to feed this, take this draft or it may generate a code, take this draft and feed it to another LLM or it same LLM again. This will act as a critic. The second LLM will act as a critic. It can be same LLM or a different LLM, but it has to act as a critic of this essay or the marketing plan whatever you have asked for. So, now the critic's output is obtained. This essay lacks lot of technical content, it is very superficial in nature. Whatever may be the critic's view point, that output is produced. Now, you have third LLM, there are critics output and a draft version both you give. Critics output and a draft version you give and the third LLM will generate draft too. Updating whatever is
+Query 7: leverages the combined capabilities of multiple AI agents 
+working together to achieve a common goal. In this 
+model, different agents are assigned specialized roles or 
+functionalities, allowing them to contribute their unique 
+expertise to the task at hand.    
+These agents can communicate and interact with each 
+other, exchanging information and coordinating their 
+efforts to solve complex problems, much like a team of 
+researchers or engineers working on a project. This 
+collaborative approach can lead to enhanced 
+performance and the ability to tackle more intricate 
+challenges.   
+Credits: https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-4-planning/
+UE22AM343BB5: Large Language Models and Their Applications 
+The Expanding Role of Visual AI: Interpreting the Visual World 
+Beyond agentic workflows, advancements in Visual AI are 
+significantly expanding the scope of AI applications. Visual AI 
+encompasses technologies that enable computers to
+        
+            You are given educational content structured as follows:
+
+            - Query: A concise, topic-specific sentence or paragraph that captures the core idea or concept
+            - Match 1, Match 2, Match 3: Transcribed excerpts from a teacher’s lecture that expand on or relate to the Query.
+
+            Your task is to generate clear, concise, and comprehensive course notes. Focus on the Query, but enhance it with meaningful insights, context, or examples from the Matches.
+
+            Instructions:
+            - Do not include any introductions, labels, or extra text — only the final generated course notes.
+            - Be accurate, clear, and focused. Avoid redundancy or off-topic content.
+            - Try to generate a paragraph per query and its matches
+
+            Here is the input:
+
+            Beyond agentic workflows, advancements in Visual AI are 
+significantly expanding the scope of AI applications. Visual AI 
+encompasses technologies that enable computers to
+  Match 0: to see how the responses will have to be generated by using agents. And on top of that you have the applications. So, there is plenty of opportunity in terms of quickly building the AI product using this agentic approach because you have plenty of them available already. Software development is happening in this direction. So, please note that for us machine learning means that is the only piece. But in software development that is not the only thing. You need to also worry about where you will deploy, isn't it? On which hardware you are going to run it. So, we are speaking everything in silos. We never speak about which GPU system we need. We just build a ML model that is not sufficient, right? That one piece is not sufficient. You have to make sure that the training, data value store, the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So,
+  Match 1: being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very effective. So there is still lot of scope which means that we are all very happy. Everybody of every one of you will have very good jobs. So that is where he also stops. This is from Andrew's words not mine. He says that there is plenty of opportunity. AI is like electricity as quoted by Andrew NG. It is like electricity can be used for fans, electricity for lights, electricity for anything else, bore well and all of that. Like that AI can be used as electricity in many applications and the domain is really nice and that is for all of you to flourish. So with that I will stop. So with this I have only one more topic that is that LLM security and ethics which I will take it up otherwise I am done with fourth unit. Builder builder. It is not orchestration agent or will have decision making.
+  Match 2: need to come in, trigger at the right time so that the driver is given correct information. So, there are many agents. So, they are all collaborating. Sometimes you may want to take the vision and the safety agent together and form a decision making. So, decision making will be combined from various agents. Different agents will give their inputs and then the driver will take a decision based on different inputs that have come in. There may be a speech agent as well. Take a right turn now, take a left turn now. And the agent also may the driver also may have to speak. So, there may be a speech agent as well required. So, different agents will perform different actions, some may be in sequence, some may be together, some may be together and decision making like this. You will have to decide what is appropriate for your application. As I said these are possible, but how you want to design your entire application is dependent on you. Is that clear? So, this is about application
+Query 8: Beyond agentic workflows, advancements in Visual AI are 
+significantly expanding the scope of AI applications. Visual AI 
+encompasses technologies that enable computers to 
+interpret and understand visual information from images and 
+videos.    
+Applications of visual AI are diverse and span numerous 
+fields, including autonomous vehicles, medical imaging 
+analysis, quality control in manufacturing, and retail 
+analytics. The ability to effectively process and understand 
+visual data, along with other forms of unstructured data like 
+audio and text, is crucial for building more powerful and 
+versatile AI systems.
+Credits: https://voxel51.com/blog/what-is-visual-ai-going-beyond-computer-vision/
+The development of Agentic AI builds upon the concept of compound LLMs. This approach 
+involves strategically linking multiple LLMs in sequence to enhance task outcomes. For 
+example, a system might utilize one LLM for initial drafting, a second for critical review, and a
+  Match 0: to see how the responses will have to be generated by using agents. And on top of that you have the applications. So, there is plenty of opportunity in terms of quickly building the AI product using this agentic approach because you have plenty of them available already. Software development is happening in this direction. So, please note that for us machine learning means that is the only piece. But in software development that is not the only thing. You need to also worry about where you will deploy, isn't it? On which hardware you are going to run it. So, we are speaking everything in silos. We never speak about which GPU system we need. We just build a ML model that is not sufficient, right? That one piece is not sufficient. You have to make sure that the training, data value store, the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So,
+  Match 1: vision model text has to be generated. So vision features will have to be understood by the vision model. Then it has to collaborate with text model. And then it is kind of similar to this only thing is there are collaborative agents now. It is not in sequence. It is not about that decision making these agents collaborate. For example, there is an autonomous vehicle that is being using agentic workflow. What are the different agents that may be required for autonomous driving? Can you tell me? For autonomous driving what different agents may be required? So, there are two main navigation, object detection, so vision system agent you need, then communication agent to the driver, then safety, obstacles. So, like this there are many agents. Each agent will have its own responsibility and they need to come in, trigger at the right time so that the driver is given correct information. So, there are many agents. So, they are all collaborating. Sometimes you may want to take the vision and
+  Match 2: being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very effective. So there is still lot of scope which means that we are all very happy. Everybody of every one of you will have very good jobs. So that is where he also stops. This is from Andrew's words not mine. He says that there is plenty of opportunity. AI is like electricity as quoted by Andrew NG. It is like electricity can be used for fans, electricity for lights, electricity for anything else, bore well and all of that. Like that AI can be used as electricity in many applications and the domain is really nice and that is for all of you to flourish. So with that I will stop. So with this I have only one more topic that is that LLM security and ethics which I will take it up otherwise I am done with fourth unit. Builder builder. It is not orchestration agent or will have decision making.
+Query 9: involves strategically linking multiple LLMs in sequence to enhance task outcomes. For 
+example, a system might utilize one LLM for initial drafting, a second for critical review, and a 
+third for revision based on the critique, reflecting an iterative refinement process. 
+Compound LLM systems demonstrate the value of combining specialized AI functions. By 
+structuring interactions between LLMs, such systems can achieve a level of quality and 
+sophistication in their output that often surpasses what a single LLM can produce alone. This 
+represents a step towards AI systems capable of reflection and improvement during task 
+execution.
+UE22AM343BB5: Large Language Models and Their Applications 
+Introduction to Agentic AI
+        
+            You are given educational content structured as follows:
+
+            - Query: A concise, topic-specific sentence or paragraph that captures the core idea or concept
+            - Match 1, Match 2, Match 3: Transcribed excerpts from a teacher’s lecture that expand on or relate to the Query.
+
+            Your task is to generate clear, concise, and comprehensive course notes. Focus on the Query, but enhance it with meaningful insights, context, or examples from the Matches.
+
+            Instructions:
+            - Do not include any introductions, labels, or extra text — only the final generated course notes.
+            - Be accurate, clear, and focused. Avoid redundancy or off-topic content.
+            - Try to generate a paragraph per query and its matches
+
+            Here is the input:
+
+            represents a step towards AI systems capable of reflection and improvement during task 
+execution.
+UE22AM343BB5: Large Language Models and Their Applications 
+Introduction to Agentic AI
+UE22AM343BB5: Large Language Models and Their Applications 
+Defining Agentic AI: Components and Orchestration 
+Agentic AI expands significantly on compound LLMs by employing a diverse set of "agents."
+  Match 0: for non LLM course as well. But if it is LLM maybe invariably one piece will be LLM. It can be compounded LLM. But there are other things that may be required. So this planning and decision making has to happen and that is what the planner agent is going to do. Planner design pattern is going to do and then execute. Plan and execute. So that is what the planner design pattern does. But all of this will have to be fine tuned. This is like he was asking me how is it done? We take the base LLM and on top of that we work on these various pieces. We have to create agents. Those agents can be your OO model. That way you have to create. Then the last one is multi model collaboration. For the multi model collaboration again you may need one vision model, you may need one speech model based on the vision model text has to be generated. So vision features will have to be understood by the vision model. Then it has to collaborate with text model. And then it is kind of similar to this only thing
+  Match 1: AI stack is more important than just building one model alone. In the classroom we always teach subjects in silos where in LLM course we just understand only LLM. Sometimes we do understand about hardware resources problem, but they are discussed in separate. One in parallel algorithms you do not even study about various GPU processing units that are available. How the clusters are formed. What is the drawback that is there in the current cluster? Where are we studying that? How is it impacting your LLM? Those aspects we have not studied here. Purely from the software stack point of view we have studied LLM. That is where we still have the gaps and according to top professional Stanford, Andrew and all of these people. There is still token problem in agent work flow. Tokens are not being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very
+  Match 2: it to a fine tuned LLM. So, this is the finer version, finer version LLM. So, in this view, in this view of agentic workflow, every piece that I spoke about is an LLM. Every piece that I am speaking about, so that is why it is called as compounded LLM. This is a compounded LLM where every LLM is playing a different role. The perspectives are different. One LLM's role is to just produce the essay. Second LLM's role is to critic on the essay. Third LLM's role is to combine the critic and the draft version and combine it produce it. You can iterate it as well. Now, how many times you want to iterate it is usually done by something called as an orchestration agent. It itself is a separate agent. Orchestration agent will decide how many times this needs to be repeated. The draft version needs to be repeated. It is like a plan. How many times and what all you have to feed, what changes you have to bring in. All of this usually is orchestrated and that agent is called as an orchestration
+Query 10: Defining Agentic AI: Components and Orchestration 
+Agentic AI expands significantly on compound LLMs by employing a diverse set of "agents." 
+These agents are not limited to LLMs; they can be any computational tool or resource, such as 
+data retrieval systems or external APIs, chosen for specific capabilities. A key element is the 
+presence of an 'orchestrator' agent. 
+The orchestrator dynamically manages the workflow, selecting and directing the appropriate 
+agents or tools based on the current state of the task and its requirements. This contrasts with 
+rigid, pre-defined workflows, allowing the system to adapt its approach in response to 
+intermediate results or changing conditions, leading to more flexible and robust problem-solving.
+Credits: https://medium.com/pythoneers/building-ai-agent-systems-with-
+langgraph-9d85537a6326
+UE22AM343BB5: Large Language Models and Their Applications 
+Foundational Concept - Compound LLMs 
+The development of Agentic AI builds upon the concept
+  Match 0: to see how the responses will have to be generated by using agents. And on top of that you have the applications. So, there is plenty of opportunity in terms of quickly building the AI product using this agentic approach because you have plenty of them available already. Software development is happening in this direction. So, please note that for us machine learning means that is the only piece. But in software development that is not the only thing. You need to also worry about where you will deploy, isn't it? On which hardware you are going to run it. So, we are speaking everything in silos. We never speak about which GPU system we need. We just build a ML model that is not sufficient, right? That one piece is not sufficient. You have to make sure that the training, data value store, the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So,
+  Match 1: not enough. I want to tell you on this. So, these are the various AI stack layers as of today that you need to look at. We are here. We will talk about LLM. We understood this. We need to understand how orchestration agents will have to be learned. And agent complications will have to be built. So, that an agent work flow will be able to answer your questions very well. That is where we stand today. Is that clear? So, now let us look at the various agentic architectural patterns that are available. So, like the design patterns that you have in your other software engineering and OOAD in the software development style. What is a pattern design pattern? You have to be silent. What is a design pattern as you studied in software engineering or if you are studying OOAD you know about it. What is a design pattern? No idea factory pattern, single-ten pattern, prototype patterns. There are lot of patterns. Software engineering I am sure one of the units contained it. It is called a shameless
+  Match 2: AI stack is more important than just building one model alone. In the classroom we always teach subjects in silos where in LLM course we just understand only LLM. Sometimes we do understand about hardware resources problem, but they are discussed in separate. One in parallel algorithms you do not even study about various GPU processing units that are available. How the clusters are formed. What is the drawback that is there in the current cluster? Where are we studying that? How is it impacting your LLM? Those aspects we have not studied here. Purely from the software stack point of view we have studied LLM. That is where we still have the gaps and according to top professional Stanford, Andrew and all of these people. There is still token problem in agent work flow. Tokens are not being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very
+Query 11: langgraph-9d85537a6326
+UE22AM343BB5: Large Language Models and Their Applications 
+Foundational Concept - Compound LLMs 
+The development of Agentic AI builds upon the concept 
+of compound LLMs. This approach involves 
+strategically linking multiple LLMs in sequence to 
+enhance task outcomes. For example, a system might 
+utilize one LLM for initial drafting, a second for critical 
+review, and a third for revision based on the critique, 
+reflecting an iterative refinement process. 
+Compound LLM systems demonstrate the value of
+        
+            You are given educational content structured as follows:
+
+            - Query: A concise, topic-specific sentence or paragraph that captures the core idea or concept
+            - Match 1, Match 2, Match 3: Transcribed excerpts from a teacher’s lecture that expand on or relate to the Query.
+
+            Your task is to generate clear, concise, and comprehensive course notes. Focus on the Query, but enhance it with meaningful insights, context, or examples from the Matches.
+
+            Instructions:
+            - Do not include any introductions, labels, or extra text — only the final generated course notes.
+            - Be accurate, clear, and focused. Avoid redundancy or off-topic content.
+            - Try to generate a paragraph per query and its matches
+
+            Here is the input:
+
+            review, and a third for revision based on the critique, 
+reflecting an iterative refinement process. 
+Compound LLM systems demonstrate the value of 
+combining specialized AI functions. By structuring 
+interactions between LLMs, such systems can achieve 
+a level of quality and sophistication in their output that 
+often surpasses what a single LLM can produce alone. 
+This represents a step towards AI systems capable of 
+reflection and improvement during task execution.
+Credits: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-reasoning-llms?
+source=queue&autoPlay=false
+  Match 0: vision model text has to be generated. So vision features will have to be understood by the vision model. Then it has to collaborate with text model. And then it is kind of similar to this only thing is there are collaborative agents now. It is not in sequence. It is not about that decision making these agents collaborate. For example, there is an autonomous vehicle that is being using agentic workflow. What are the different agents that may be required for autonomous driving? Can you tell me? For autonomous driving what different agents may be required? So, there are two main navigation, object detection, so vision system agent you need, then communication agent to the driver, then safety, obstacles. So, like this there are many agents. Each agent will have its own responsibility and they need to come in, trigger at the right time so that the driver is given correct information. So, there are many agents. So, they are all collaborating. Sometimes you may want to take the vision and
+  Match 1: being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very effective. So there is still lot of scope which means that we are all very happy. Everybody of every one of you will have very good jobs. So that is where he also stops. This is from Andrew's words not mine. He says that there is plenty of opportunity. AI is like electricity as quoted by Andrew NG. It is like electricity can be used for fans, electricity for lights, electricity for anything else, bore well and all of that. Like that AI can be used as electricity in many applications and the domain is really nice and that is for all of you to flourish. So with that I will stop. So with this I have only one more topic that is that LLM security and ethics which I will take it up otherwise I am done with fourth unit. Builder builder. It is not orchestration agent or will have decision making.
+  Match 2: statistics are fed to critic. These statistics are fed to critic. Now the statistics information has been brought in from a different path, not an LLM. So, agentic workflow. Let me iterate. Agentic workflow does not necessarily mean that all pieces are LLM. One leaf bound you have to take is in agentic workflow you have compounded LLM. Another leaf bound that you have to take is the agentic workflow does not necessarily mean that every piece is an LLM. The pieces can be different. They can flow from different paths. But all of them the objective is to produce better response. The only one goal is to produce better response to a query. That is it. So, that is another way. This is clear. This is what we mean by agentic workflow. We are using several modules to generate a better response to the given query. This is what we mean by agentic workflow. So, now if you look at the stack AI stack as of today, this is where you have the semiconductor, semiconductor layer like Nvidia and all of
+Query 12: reflection and improvement during task execution.
+Credits: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-reasoning-llms?
+source=queue&autoPlay=false
+UE22AM343BB5: Large Language Models and Their Applications 
+Significance and Advantages of Agentic AI 
+The core advantage of Agentic AI lies in its ability to effectively coordinate multiple 
+specialized agents. This allows for the decomposition of complex problems, assigning 
+sub-tasks to the agents best suited for them. Such orchestration enhances overall system 
+intelligence, efficiency, and the potential for generating novel solutions by combining 
+diverse functionalities. 
+Furthermore, the inherent adaptability of Agentic AI systems is a key differentiator. These 
+systems can modify their strategies based on real-time feedback or changing 
+environmental factors, making them more resilient and effective in dynamic, real-world 
+situations compared to less flexible AI architectures.
+  Match 0: to see how the responses will have to be generated by using agents. And on top of that you have the applications. So, there is plenty of opportunity in terms of quickly building the AI product using this agentic approach because you have plenty of them available already. Software development is happening in this direction. So, please note that for us machine learning means that is the only piece. But in software development that is not the only thing. You need to also worry about where you will deploy, isn't it? On which hardware you are going to run it. So, we are speaking everything in silos. We never speak about which GPU system we need. We just build a ML model that is not sufficient, right? That one piece is not sufficient. You have to make sure that the training, data value store, the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So,
+  Match 1: to be repeated. It is like a plan. How many times and what all you have to feed, what changes you have to bring in. All of this usually is orchestrated and that agent is called as an orchestration agent. Now, in the way I said the agentic workflow versus the non-agentic workflow, it is like at one go. You just ask me an essay and you give me the essay. That is it. But in the agentic workflow, you are not going to stop at that. You are going to refine your responses. What does that mean? Your agentic workflow is giving you a better response than a non-agentic approach. That is the first and foremost objective goal with which agentic workflows work. In order to improvise the response, you use agentic workflows. This is the objective and how you do it? There can be different methods. But this is one of the ways. Is this clear? Is the agentic workflow clear here? Now you can ask the LLM to create a draft version. Now you can ask another piece of code for a data request. Data request
+  Match 2: It is known as compounded LLM. Agentic workflow involves compounded LLM, but that is one of the ways, not the only method. So, in the compounded LLM, the same question when you ask the LLM, you want it to generate a marketing plan for a product or NSA. It generates a draft version. Then you are going to feed this, take this draft or it may generate a code, take this draft and feed it to another LLM or it same LLM again. This will act as a critic. The second LLM will act as a critic. It can be same LLM or a different LLM, but it has to act as a critic of this essay or the marketing plan whatever you have asked for. So, now the critic's output is obtained. This essay lacks lot of technical content, it is very superficial in nature. Whatever may be the critic's view point, that output is produced. Now, you have third LLM, there are critics output and a draft version both you give. Critics output and a draft version you give and the third LLM will generate draft too. Updating whatever is
+Query 13: environmental factors, making them more resilient and effective in dynamic, real-world 
+situations compared to less flexible AI architectures.
+UE22AM343BB5: Large Language Models and Their Applications 
+Conclusion: The Future of Intelligent Systems 
+The field of Artificial Intelligence is undergoing rapid transformation, with a
+        
+            You are given educational content structured as follows:
+
+            - Query: A concise, topic-specific sentence or paragraph that captures the core idea or concept
+            - Match 1, Match 2, Match 3: Transcribed excerpts from a teacher’s lecture that expand on or relate to the Query.
+
+            Your task is to generate clear, concise, and comprehensive course notes. Focus on the Query, but enhance it with meaningful insights, context, or examples from the Matches.
+
+            Instructions:
+            - Do not include any introductions, labels, or extra text — only the final generated course notes.
+            - Be accurate, clear, and focused. Avoid redundancy or off-topic content.
+            - Try to generate a paragraph per query and its matches
+
+            Here is the input:
+
+            UE22AM343BB5: Large Language Models and Their Applications 
+Conclusion: The Future of Intelligent Systems 
+The field of Artificial Intelligence is undergoing rapid transformation, with a 
+significant emphasis on developing practical and impactful applications. The 
+emergence of agentic workflows, driven by key design patterns, and the 
+advancements in visual AI are paving the way for more sophisticated and 
+capable intelligent systems.    
+As AI continues to evolve, these trends will unlock new possibilities for 
+innovation across a wide range of industries and research domains. 
+Understanding these fundamental concepts is crucial for future researchers, 
+developers, and anyone interested in the transformative potential of artificial 
+intelligence.
+Dr. Shylaja S S 
+Director of Cloud Computing & Big Data (CCBD), Centre
+  Match 0: AI stack is more important than just building one model alone. In the classroom we always teach subjects in silos where in LLM course we just understand only LLM. Sometimes we do understand about hardware resources problem, but they are discussed in separate. One in parallel algorithms you do not even study about various GPU processing units that are available. How the clusters are formed. What is the drawback that is there in the current cluster? Where are we studying that? How is it impacting your LLM? Those aspects we have not studied here. Purely from the software stack point of view we have studied LLM. That is where we still have the gaps and according to top professional Stanford, Andrew and all of these people. There is still token problem in agent work flow. Tokens are not being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very
+  Match 1: vision model text has to be generated. So vision features will have to be understood by the vision model. Then it has to collaborate with text model. And then it is kind of similar to this only thing is there are collaborative agents now. It is not in sequence. It is not about that decision making these agents collaborate. For example, there is an autonomous vehicle that is being using agentic workflow. What are the different agents that may be required for autonomous driving? Can you tell me? For autonomous driving what different agents may be required? So, there are two main navigation, object detection, so vision system agent you need, then communication agent to the driver, then safety, obstacles. So, like this there are many agents. Each agent will have its own responsibility and they need to come in, trigger at the right time so that the driver is given correct information. So, there are many agents. So, they are all collaborating. Sometimes you may want to take the vision and
+  Match 2: being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very effective. So there is still lot of scope which means that we are all very happy. Everybody of every one of you will have very good jobs. So that is where he also stops. This is from Andrew's words not mine. He says that there is plenty of opportunity. AI is like electricity as quoted by Andrew NG. It is like electricity can be used for fans, electricity for lights, electricity for anything else, bore well and all of that. Like that AI can be used as electricity in many applications and the domain is really nice and that is for all of you to flourish. So with that I will stop. So with this I have only one more topic that is that LLM security and ethics which I will take it up otherwise I am done with fourth unit. Builder builder. It is not orchestration agent or will have decision making.
+Query 14: developers, and anyone interested in the transformative potential of artificial 
+intelligence.
+Dr. Shylaja S S 
+Director of Cloud Computing & Big Data (CCBD), Centre 
+for Data Sciences & Applied Machine Learning (CDSAML) 
+Department of Computer Science and Engineering 
+shylaja.sharath@pes.edu
+Ack: Ujjwal MK, 
+Teaching Assistant
+UE22AM343BB5 
+Agentic Workflow
+LARGE LANGUAGE MODEL
+Dr. Shylaja S S
+Department of Computer Science and Engineering
+AutoGen, CrewAI
+UE21CS421AC1
+LARGE LANGUAGE MODEL
+AutoGen, CrewAI  – Features
+Department of Computer Science and Engineering
+LARGE LANGUAGE MODEL
+AutoGen – Features
+1.
+Multi-Agent Communication Framework 
+• AutoGen allows you to define multiple AI agents (and humans!) that can talk to each other via 
+structured messages. 
+• Each agent has a role and behavioral logic, like "Coder", "Reviewer", or "Planner".  
+2.
+Conversational Workflow Orchestration 
+• It supports looping dialogues between agents until a task is complete.
+  Match 0: AI stack is more important than just building one model alone. In the classroom we always teach subjects in silos where in LLM course we just understand only LLM. Sometimes we do understand about hardware resources problem, but they are discussed in separate. One in parallel algorithms you do not even study about various GPU processing units that are available. How the clusters are formed. What is the drawback that is there in the current cluster? Where are we studying that? How is it impacting your LLM? Those aspects we have not studied here. Purely from the software stack point of view we have studied LLM. That is where we still have the gaps and according to top professional Stanford, Andrew and all of these people. There is still token problem in agent work flow. Tokens are not being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very
+  Match 1: the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So, all of this is also important. The overall stack you have to understand. If you don't understand the overall stack, you are not going to be called as an ML engineer. Just applying some supervised machine learning and doing sentiment analysis. And you say that you have learned machine learning is not enough. Do you understand? The entire stack. So, you have to understand how the whole module has to be localized, containerized. Completely, you need to understand to make sure that you deploy the product in the manner that is required for it to be usable. So, only standalone silos, LLM learning is not enough. I want to tell you on this. So, these are the various AI stack layers as of today that you need to look at. We are here. We will talk about LLM. We understood this. We need to understand
+  Match 2: being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very effective. So there is still lot of scope which means that we are all very happy. Everybody of every one of you will have very good jobs. So that is where he also stops. This is from Andrew's words not mine. He says that there is plenty of opportunity. AI is like electricity as quoted by Andrew NG. It is like electricity can be used for fans, electricity for lights, electricity for anything else, bore well and all of that. Like that AI can be used as electricity in many applications and the domain is really nice and that is for all of you to flourish. So with that I will stop. So with this I have only one more topic that is that LLM security and ethics which I will take it up otherwise I am done with fourth unit. Builder builder. It is not orchestration agent or will have decision making.
+Query 15: 2.
+Conversational Workflow Orchestration 
+• It supports looping dialogues between agents until a task is complete.
+        
+            You are given educational content structured as follows:
+
+            - Query: A concise, topic-specific sentence or paragraph that captures the core idea or concept
+            - Match 1, Match 2, Match 3: Transcribed excerpts from a teacher’s lecture that expand on or relate to the Query.
+
+            Your task is to generate clear, concise, and comprehensive course notes. Focus on the Query, but enhance it with meaningful insights, context, or examples from the Matches.
+
+            Instructions:
+            - Do not include any introductions, labels, or extra text — only the final generated course notes.
+            - Be accurate, clear, and focused. Avoid redundancy or off-topic content.
+            - Try to generate a paragraph per query and its matches
+
+            Here is the input:
+
+            Query 15: 2.
+Conversational Workflow Orchestration 
+• It supports looping dialogues between agents until a task is complete.  
+• This enables powerful coordination for tasks like code generation, debugging, or multi-step 
+problem solving.  
+3. Extensibility & Tool Integration 
+• Agents can be connected to external tools, functions, APIs, or custom code. 
+• You can easily create agents that call Python code, run shell commands, or interact with web 
+APIs.
+LARGE LANGUAGE MODEL
+AutoGen – Example
+from autogen import UserProxyAgent, AssistantAgent 
+# Create a user-facing agent 
+user_proxy = UserProxyAgent(name="user_proxy", human_input_mode="TERMINAL") 
+# Create a code assistant agent 
+code_assistant = AssistantAgent(name="code_assistant", llm_config={"config_list": [...]}) 
+# Let them chat 
+user_proxy.initiate_chat( 
+    code_assistant, 
+    message="Can you write a Python function to calculate factorial?" 
+)
+LARGE LANGUAGE MODEL
+AutoGen – Example
+from autogen import GroupChat, GroupChatManager
+  Match 0: to see how the responses will have to be generated by using agents. And on top of that you have the applications. So, there is plenty of opportunity in terms of quickly building the AI product using this agentic approach because you have plenty of them available already. Software development is happening in this direction. So, please note that for us machine learning means that is the only piece. But in software development that is not the only thing. You need to also worry about where you will deploy, isn't it? On which hardware you are going to run it. So, we are speaking everything in silos. We never speak about which GPU system we need. We just build a ML model that is not sufficient, right? That one piece is not sufficient. You have to make sure that the training, data value store, the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So,
+  Match 1: this is one of the ways. Is this clear? Is the agentic workflow clear here? Now you can ask the LLM to create a draft version. Now you can ask another piece of code for a data request. Data request agent. The data request agent may generate the request not in the form of the JSON file. Let us say the format. But it is in the form of a natural language. The data request piece module may generate it in the format required for Google search or Web Search. So, then that output is fed to Google search or any other search. Web Search, I will say Web Search. So, produce some statistics related to the product. You want to produce marketing plan for a product. So, marketing strategy is like similar products. How they have been done all of that? The statistics is brought by Web Search. Now, these statistics are fed to critic. These statistics are fed to critic. Now the statistics information has been brought in from a different path, not an LLM. So, agentic workflow. Let me iterate. Agentic
+  Match 2: being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very effective. So there is still lot of scope which means that we are all very happy. Everybody of every one of you will have very good jobs. So that is where he also stops. This is from Andrew's words not mine. He says that there is plenty of opportunity. AI is like electricity as quoted by Andrew NG. It is like electricity can be used for fans, electricity for lights, electricity for anything else, bore well and all of that. Like that AI can be used as electricity in many applications and the domain is really nice and that is for all of you to flourish. So with that I will stop. So with this I have only one more topic that is that LLM security and ethics which I will take it up otherwise I am done with fourth unit. Builder builder. It is not orchestration agent or will have decision making.
+Query 16: code_assistant, 
+    message="Can you write a Python function to calculate factorial?" 
+)
+LARGE LANGUAGE MODEL
+AutoGen – Example
+from autogen import GroupChat, GroupChatManager 
+# Add another agent for reviewing 
+reviewer = AssistantAgent(name="reviewer", llm_config={"config_list": [...]}) 
+# Group chat setup 
+groupchat = GroupChat(agents=[user_proxy, code_assistant, reviewer], messages=[], max_round=5) 
+manager = GroupChatManager(groupchat=groupchat, llm_config={"config_list": [...]}) 
+# Start a multi-agent loop 
+user_proxy.initiate_chat(manager, message="Please build and review a function to sort a list of numbers.")
+LARGE LANGUAGE MODEL
+AutoGen – Example
+from autogen import PythonCodeExecutorAgent 
+# An agent that can execute Python code 
+executor = PythonCodeExecutorAgent(name="executor", human_input_mode="NEVER") 
+# Let user_proxy chat with executor 
+user_proxy.initiate_chat( 
+    executor,
+  Match 0: this is one of the ways. Is this clear? Is the agentic workflow clear here? Now you can ask the LLM to create a draft version. Now you can ask another piece of code for a data request. Data request agent. The data request agent may generate the request not in the form of the JSON file. Let us say the format. But it is in the form of a natural language. The data request piece module may generate it in the format required for Google search or Web Search. So, then that output is fed to Google search or any other search. Web Search, I will say Web Search. So, produce some statistics related to the product. You want to produce marketing plan for a product. So, marketing strategy is like similar products. How they have been done all of that? The statistics is brought by Web Search. Now, these statistics are fed to critic. These statistics are fed to critic. Now the statistics information has been brought in from a different path, not an LLM. So, agentic workflow. Let me iterate. Agentic
+  Match 1: cannot answer. So what it has to do it has to call an API API to Calilator agent. It has to call an API to web search or it has to generate a code for Calilator in sign 63 and the code has to be run in an environment where code can be run isn't it. So you have to make an API call to the code generation engine and to run the code and give back the answer. So all that you do it and then you produce it to LLM. So you are making use of a tool to answer the question you will not allow GPT itself to answer 5 by 2 or sign 35 like that. The GPT alone cannot answer that. GPT will have to resort to some API call. It should make use of a tool like Calilator or a Python code and use math libraries. Run the code and then get back the answer and then produce answer. So in giving a response it is using API calls tools and that is called as a tool use pattern. So if you are making use of external tools to run or to answer other than just a LLM then it is called as tool use pattern. Both examples
+  Match 2: to see how the responses will have to be generated by using agents. And on top of that you have the applications. So, there is plenty of opportunity in terms of quickly building the AI product using this agentic approach because you have plenty of them available already. Software development is happening in this direction. So, please note that for us machine learning means that is the only piece. But in software development that is not the only thing. You need to also worry about where you will deploy, isn't it? On which hardware you are going to run it. So, we are speaking everything in silos. We never speak about which GPU system we need. We just build a ML model that is not sufficient, right? That one piece is not sufficient. You have to make sure that the training, data value store, the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So,
+        
+            You are given educational content structured as follows:
+
+            - Query: A concise, topic-specific sentence or paragraph that captures the core idea or concept
+            - Match 1, Match 2, Match 3: Transcribed excerpts from a teacher’s lecture that expand on or relate to the Query.
+
+            Your task is to generate clear, concise, and comprehensive course notes. Focus on the Query, but enhance it with meaningful insights, context, or examples from the Matches.
+
+            Instructions:
+            - Do not include any introductions, labels, or extra text — only the final generated course notes.
+            - Be accurate, clear, and focused. Avoid redundancy or off-topic content.
+            - Try to generate a paragraph per query and its matches
+
+            Here is the input:
+
+            Query 17: # An agent that can execute Python code 
+executor = PythonCodeExecutorAgent(name="executor", human_input_mode="NEVER") 
+# Let user_proxy chat with executor 
+user_proxy.initiate_chat( 
+    executor, 
+    message="Write and execute a script that prints the Fibonacci sequence up to 100." 
+)
+LARGE LANGUAGE MODEL
+CrewAI – Features
+1.
+Modular Agent Roles with "Crew" Structure 
+• You define a crew composed of specialized agents, like an Analyst, Researcher, or Presenter. 
+• Each agent has a clear task description, improving task division and collaboration. 
+2.
+Task Planning & Delegation 
+• CrewAI supports auto-task planning, where a Manager agent can split tasks and assign them to 
+other agents. 
+• This enables hierarchical workflows, like planning → researching → writing. 
+3. Deterministic & Reusable Pipelines 
+• You can run agents in a defined sequence, like a production line. 
+• Perfect for use cases like content creation, document processing, or automated research 
+workflows.
+  Match 0: cannot answer. So what it has to do it has to call an API API to Calilator agent. It has to call an API to web search or it has to generate a code for Calilator in sign 63 and the code has to be run in an environment where code can be run isn't it. So you have to make an API call to the code generation engine and to run the code and give back the answer. So all that you do it and then you produce it to LLM. So you are making use of a tool to answer the question you will not allow GPT itself to answer 5 by 2 or sign 35 like that. The GPT alone cannot answer that. GPT will have to resort to some API call. It should make use of a tool like Calilator or a Python code and use math libraries. Run the code and then get back the answer and then produce answer. So in giving a response it is using API calls tools and that is called as a tool use pattern. So if you are making use of external tools to run or to answer other than just a LLM then it is called as tool use pattern. Both examples
+  Match 1: this is one of the ways. Is this clear? Is the agentic workflow clear here? Now you can ask the LLM to create a draft version. Now you can ask another piece of code for a data request. Data request agent. The data request agent may generate the request not in the form of the JSON file. Let us say the format. But it is in the form of a natural language. The data request piece module may generate it in the format required for Google search or Web Search. So, then that output is fed to Google search or any other search. Web Search, I will say Web Search. So, produce some statistics related to the product. You want to produce marketing plan for a product. So, marketing strategy is like similar products. How they have been done all of that? The statistics is brought by Web Search. Now, these statistics are fed to critic. These statistics are fed to critic. Now the statistics information has been brought in from a different path, not an LLM. So, agentic workflow. Let me iterate. Agentic
+  Match 2: to create for at least 100 and see. If we do that, then we are going to do that. It is very difficult. LLM is always like that. LLM is data. Data hungry at least. If you expose it to that, it will do mix and match it will produce. Only that it will be possible. It will be possible. It will be possible. And one more mudra. Like the as per day day for yesterday. Like the last day mudra. And there are many types of mudras. Like from complex to medium. Compat? Yes. There is something like any mudra. In the mud they have done more variation in their athletes. But the very different thing is that the mudra is generated. That is the new catch and the same thing is generated. The same thing is generated. The mudra is generated. And it is generated much better than that. So that is the problem that we are going to do. We are going to do that. We are telling about that. We are going to do that. We are talking about that. We are talking about that. And it is actually a college. It is basically a
+Query 18: • You can run agents in a defined sequence, like a production line. 
+• Perfect for use cases like content creation, document processing, or automated research 
+workflows.
+LARGE LANGUAGE MODEL
+CrewAI – Example
+from crewai import Agent, Task, Crew 
+from langchain.chat_models import ChatOpenAI  # Or use any other supported LLM 
+# LLM Setup (you can replace this with HuggingFace or Ollama if needed) 
+llm = ChatOpenAI(temperature=0.7, model="gpt-4")  # Or "gpt-3.5-turbo" 
+# Define Agents 
+researcher = Agent( 
+    role="Research Specialist", 
+    goal="Find up-to-date information on quantum computing", 
+    backstory="You are an expert researcher who always finds accurate and current info.", 
+    verbose=True, 
+    llm=llm, 
+)
+LARGE LANGUAGE MODEL
+CrewAI – Example
+summarizer = Agent( 
+    role="Scientific Writer", 
+    goal="Summarize complex research into simple, readable content", 
+    backstory="You write blog posts that help beginners understand tough topics.", 
+    verbose=True,
+  Match 0: to see how the responses will have to be generated by using agents. And on top of that you have the applications. So, there is plenty of opportunity in terms of quickly building the AI product using this agentic approach because you have plenty of them available already. Software development is happening in this direction. So, please note that for us machine learning means that is the only piece. But in software development that is not the only thing. You need to also worry about where you will deploy, isn't it? On which hardware you are going to run it. So, we are speaking everything in silos. We never speak about which GPU system we need. We just build a ML model that is not sufficient, right? That one piece is not sufficient. You have to make sure that the training, data value store, the data one like images, where do you store? Units are worth. So, you have to talk about the hardware. You want to speak about the clustering. You need to talk about how GPU processing happens. So,
+  Match 1: being generated quickly and very large number of tokens are being generated in agent work flow and data engineering for text image, video and all of that. There is still agent work flow not that very effective. So there is still lot of scope which means that we are all very happy. Everybody of every one of you will have very good jobs. So that is where he also stops. This is from Andrew's words not mine. He says that there is plenty of opportunity. AI is like electricity as quoted by Andrew NG. It is like electricity can be used for fans, electricity for lights, electricity for anything else, bore well and all of that. Like that AI can be used as electricity in many applications and the domain is really nice and that is for all of you to flourish. So with that I will stop. So with this I have only one more topic that is that LLM security and ethics which I will take it up otherwise I am done with fourth unit. Builder builder. It is not orchestration agent or will have decision making.
+        
+            You are given educational content structured as follows:
+
+            - Query: A concise, topic-specific sentence or paragraph that captures the core idea or concept
+            - Match 1, Match 2, Match 3: Transcribed excerpts from a teacher’s lecture that expand on or relate to the Query.
+
+            Your task is to generate clear, concise, and comprehensive course notes. Focus on the Query, but enhance it with meaningful insights, context, or examples from the Matches.
+
+            Instructions:
+            - Do not include any introductions, labels, or extra text — only the final generated course notes.
+            - Be accurate, clear, and focused. Avoid redundancy or off-topic content.
+            - Try to generate a paragraph per query and its matches
+
+            Here is the input:
+
+            Match 2: It is known as compounded LLM. Agentic workflow involves compounded LLM, but that is one of the ways, not the only method. So, in the compounded LLM, the same question when you ask the LLM, you want it to generate a marketing plan for a product or NSA. It generates a draft version. Then you are going to feed this, take this draft or it may generate a code, take this draft and feed it to another LLM or it same LLM again. This will act as a critic. The second LLM will act as a critic. It can be same LLM or a different LLM, but it has to act as a critic of this essay or the marketing plan whatever you have asked for. So, now the critic's output is obtained. This essay lacks lot of technical content, it is very superficial in nature. Whatever may be the critic's view point, that output is produced. Now, you have third LLM, there are critics output and a draft version both you give. Critics output and a draft version you give and the third LLM will generate draft too. Updating whatever is
+Query 19: goal="Summarize complex research into simple, readable content", 
+    backstory="You write blog posts that help beginners understand tough topics.", 
+    verbose=True, 
+    llm=llm, 
+) 
+# Define Tasks 
+task1 = Task( 
+    description="Search and gather recent breakthroughs in quantum computing.", 
+    agent=researcher, 
+) 
+task2 = Task( 
+    description="Summarize the findings from the researcher in a blog-post format.", 
+    agent=summarizer, 
+    depends on=[task1], 
+LARGE LANGUAGE MODEL
+CrewAI – Example
+# Define the Crew (the pipeline) 
+crew = Crew( 
+    agents=[researcher, summarizer], 
+    tasks=[task1, task2], 
+    verbose=True, 
+) 
+# Kick off the workflow 
+result = crew.kickoff() 
+print(" Final Output:\n", result)
+shylaja.sharath@pes.edu
+THANK YOU
+Dr. Shylaja S S
+Department of Computer Science Engineering
+  Match 0: It is known as compounded LLM. Agentic workflow involves compounded LLM, but that is one of the ways, not the only method. So, in the compounded LLM, the same question when you ask the LLM, you want it to generate a marketing plan for a product or NSA. It generates a draft version. Then you are going to feed this, take this draft or it may generate a code, take this draft and feed it to another LLM or it same LLM again. This will act as a critic. The second LLM will act as a critic. It can be same LLM or a different LLM, but it has to act as a critic of this essay or the marketing plan whatever you have asked for. So, now the critic's output is obtained. This essay lacks lot of technical content, it is very superficial in nature. Whatever may be the critic's view point, that output is produced. Now, you have third LLM, there are critics output and a draft version both you give. Critics output and a draft version you give and the third LLM will generate draft too. Updating whatever is
+  Match 1: statistics are fed to critic. These statistics are fed to critic. Now the statistics information has been brought in from a different path, not an LLM. So, agentic workflow. Let me iterate. Agentic workflow does not necessarily mean that all pieces are LLM. One leaf bound you have to take is in agentic workflow you have compounded LLM. Another leaf bound that you have to take is the agentic workflow does not necessarily mean that every piece is an LLM. The pieces can be different. They can flow from different paths. But all of them the objective is to produce better response. The only one goal is to produce better response to a query. That is it. So, that is another way. This is clear. This is what we mean by agentic workflow. We are using several modules to generate a better response to the given query. This is what we mean by agentic workflow. So, now if you look at the stack AI stack as of today, this is where you have the semiconductor, semiconductor layer like Nvidia and all of
+  Match 2: Now, you have third LLM, there are critics output and a draft version both you give. Critics output and a draft version you give and the third LLM will generate draft too. Updating whatever is a critic. We do that for GPD as well, right? This is not what I am liking, you modify this and all that. So, in our case, human itself is a critic. So, this instead of this LLM, there can be an element of human and human will act as a critic and give a different prompt, but that itself can be an LLM. So, then you produce a draft too. Like this, how many iterations you want to have? That is your decision. So, if you are okay with draft to find, otherwise again you will have to loop back. Again, you have to feed this draft too to critic. Again, you have to take the critic. Again, you have to produce it to a fine tuned LLM. So, this is the finer version, finer version LLM. So, in this view, in this view of agentic workflow, every piece that I spoke about is an LLM. Every piece that I am speaking
+        

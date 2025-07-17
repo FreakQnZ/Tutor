@@ -43,3 +43,21 @@ services:
   #       --topic audio_ready && \
   #     echo '✅ Topic created: audio_ready'
   #     "
+  topic-creator:
+    image: bitnami/kafka:3.7
+    depends_on:
+      - kafka
+    entrypoint: ["bash", "-c"]
+    command: >
+      "
+      sleep 20 &&
+      kafka-topics.sh
+        --bootstrap-server kafka:9092
+        --create
+        --if-not-exists
+        --topic audio_ready
+        --partitions 1
+        --replication-factor 1
+        --config cleanup.policy=compact &&
+      echo '✅ Topic audio_ready with log compaction created.'
+      "

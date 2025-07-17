@@ -3,4 +3,10 @@ lg_libs
 .ropeproject
 .DS_Store
 **/.DS_Store
-lecture_sample.mp4
+*.mp4
+data/audio
+data/embeddings
+data/images
+outputs/*.pdf
+!outputs/4cf10845-f770-493c-855d-640369828848.pdf
+output_prompt.txt

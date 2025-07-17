@@ -1,6 +1,6 @@
 from kafka import KafkaConsumer
 import json
-TOPIC = "embeddings_ready"
+TOPIC = "brand_new"
 consumer = KafkaConsumer(
     TOPIC,
     bootstrap_servers="localhost:9092",

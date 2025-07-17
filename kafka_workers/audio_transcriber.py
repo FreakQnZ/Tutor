@@ -10,12 +10,12 @@ KAFKA_BROKER = os.getenv("KAFKA_BROKER", "localhost:9092")
 AUDIO_READY_TOPIC = "audio_ready"
 TRANSCRIPTION_READY_TOPIC = "transcription_ready"
 # Load Whisper model once
-print("Loading Whisper model...")
+print("CLOG Loading Whisper model...")
 model = whisper.load_model("base")
 
 
 def transcribe_audio(audio_path):
-    print(f"Transcribing {audio_path}...")
+    print(f"CLOG Transcribing {audio_path}...")
     result = model.transcribe(audio_path)
     # segments = result["segments"]
     full_text = result["text"]
@@ -40,7 +40,7 @@ def start_consumer():
         bootstrap_servers=KAFKA_BROKER,
         value_deserializer=lambda m: json.loads(m.decode("utf-8")),
         group_id="audio_transcriber_group",
-        auto_offset_reset="latest",
+        auto_offset_reset="earliest",
         enable_auto_commit=True,
     )
 
@@ -55,7 +55,7 @@ def start_consumer():
             audio_data = message.value
             audio_path = audio_data["audio_path"]
             video_id = audio_data.get("video_id", "unknown")
-            print(f"Processing audio for video {video_id}")
+            print(f"CLOG Processing audio for video {video_id}")
             transcript = transcribe_audio(audio_path)
 
             payload = {
@@ -66,7 +66,7 @@ def start_consumer():
 
             producer.send(TRANSCRIPTION_READY_TOPIC, payload)
             producer.flush()
-            print(f"✅ Transcription for {video_id} sent to {TRANSCRIPTION_READY_TOPIC}")
+            print(f"CLOG ✅ Transcription for {video_id} sent to {TRANSCRIPTION_READY_TOPIC}")
             # print(f"Message recieved {message.value}")
 
         except Exception as e:
