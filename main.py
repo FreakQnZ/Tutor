@@ -1,14 +1,18 @@
+from pickle import load
 import subprocess
 import uuid
 import time
 import os
 import base64
+from dotenv import load_dotenv
 from kafka.admin import KafkaAdminClient, NewTopic
 import streamlit as st
 from threading import Thread
 from queue import Queue, Empty
 
-KAFKA_BOOTSTRAP_SERVERS = 'localhost:9092'
+load_dotenv()
+
+KAFKA_BOOTSTRAP_SERVERS = os.getenv('KAFKA_BROKER', 'localhost:9092')
 TOPICS = [
     'audio_ready',
     'transcription_ready',
@@ -55,7 +59,7 @@ def start_worker(script_name, args=None):
     )
     return process
 
-def main():
+def pipeline():
     st.title("Kafka Pipeline Streamlit App")
 
     create_topics()
@@ -105,6 +109,7 @@ def main():
             if all_logs:
                 # Show last 50 lines
                 # logs_placeholder.text("\n".join(all_logs[-50:]))
+                # print("Logs:", all_logs[-50:])
                 filtered_logs = [line for line in all_logs if line.startswith('CLOG')]
                 logs_placeholder.text("\n".join(filtered_logs[-50:]))
 
@@ -128,17 +133,19 @@ def main():
     if os.path.exists(output_pdf_path):
         with open(output_pdf_path, "rb") as f:
             pdf_bytes = f.read()
-        b64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
+            base64_pdf = base64.b64encode(pdf_bytes).decode('utf-8')
 
         st.download_button(
             label="Download PDF",
             data=pdf_bytes,
-            file_name=f"{unique_id}.pdf",
+            # file_name=f"{unique_id}.pdf",
+            file_name="summary.pdf",
             mime="application/pdf"
         )
 
-        pdf_display = f'<iframe src="data:application/pdf;base64,{b64_pdf}" width="700" height="900" type="application/pdf"></iframe>'
-        st.components.v1.html(pdf_display, height=900)
+        # st.components.v1.pdf(pdf_bytes, width=700, height=900)
+        pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
+        st.markdown(pdf_display, unsafe_allow_html=True)
 
     else:
         st.warning("Output PDF not found within time limit.")
@@ -148,6 +155,14 @@ def main():
     for (p, _) in processes:
         p.terminate()
     st.write("All subprocesses terminated.")
+
+def main():
+    st.title("Kafka Pipeline Streamlit App")
+
+    if st.button("Start Pipeline"):
+        pipeline()
+    else:
+        st.write("Click the button above to start the Kafka pipeline.")
 
 if __name__ == "__main__":
     main()
